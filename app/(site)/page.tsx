@@ -1,11 +1,14 @@
 import { sleep } from "@/lib/utils";
 import React from "react";
+import Category from "./components/Category";
 
 const page = async () => {
-  console.log("before homePage sleep ...");
-  await sleep(3000);
-  console.log("after homePage sleep ...");
-  return <div>HomePage</div>;
+  return (
+    <div className="min-h-[600px]">
+      <div className="mt-9"></div>
+      <Category />
+    </div>
+  );
 };
 
 export default page;
