@@ -19,6 +19,14 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* <div className="bg-pink-300">
+          <div className="bg-white w-[200px] h-[200px] "></div>
+          <div className="bg-red-600 w-[300px] h-[300px]"></div>
+          <div className="bg-blue-600 w-[400px] h-[400px] absolute"></div>
+          <div className="bg-purple-400 w-[200px] h-[200px] absolute"></div>
+          <div className="bg-green-400 w-[100px] h-[100px] relative"></div>
+          <div className="bg-orange-500 w-[100px] h-[100px] relative"></div>
+        </div> */}
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
